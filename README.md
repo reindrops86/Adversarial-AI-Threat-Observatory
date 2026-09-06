@@ -53,6 +53,14 @@ python -m pytest -q                 # 40 tests
 
 No dependencies beyond the standard library. `pytest` is needed only for the test suite.
 
+### Daily automation
+
+`.github/workflows/daily-reports.yml` runs the simulated end-to-end investigation
+every day at 09:30 UTC and can be started from the repository's **Actions** tab.
+It uploads the generated reports, data artifacts, and draft detection rule for
+each run, then commits them only when output changes. The workflow never uses
+production platform data, real credentials, or live offensive operations.
+
 ---
 
 ## The demonstration scenario
