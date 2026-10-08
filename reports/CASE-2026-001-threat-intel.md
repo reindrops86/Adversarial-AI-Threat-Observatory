@@ -46,7 +46,7 @@ status: draft
 approved_by: null
 title: "Multi-account credential-phishing assistance with post-enforcement return"
 derived_from_case: "CASE-2026-001"
-created: "2026-10-07T16:43:54.346976Z"
+created: "2026-10-08T16:41:40.216603Z"
 scope: session_sequence
 description: "Fires when a single session escalates from benign to credential-collection assistance, reformulates after refusal, and is linked by a strong identifier to an account previously subject to enforcement."
 logic:
